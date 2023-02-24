@@ -1,0 +1,50 @@
+.specialist{
+    display: flex;
+   
+    flex-direction: column;
+    margin-top: 12rem;
+    background-color: rgb(252, 252, 252);
+    /* background-color: rgb(205, 235, 245); */
+}
+.specialistTop{
+    margin-top: 12rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+}
+.specialistTopTitle{
+    font-size: 40px;
+    color: rgb(0, 0, 102)
+}
+.specialistTopDesc{
+    font-size: 15.8px;
+    font-weight: 500;
+    line-height: 2rem;
+    color: rgb(0, 0, 102);
+    margin: 0 26rem;
+
+}
+.specialistBottom{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.specialistBottomCard{
+    width: 17rem;
+    height: 28rem;
+   box-shadow: 0 0 20px   rgb(220, 210, 210);
+   border-radius: 20px;
+   margin-left: 2rem;
+}
+.specialistBottomCardImage{
+    width: 17rem;
+    height: 20rem;
+    background-color:  rgb(143, 202, 222);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.specialistBottonCardTitle{
+    margin-left: 30px;
+}

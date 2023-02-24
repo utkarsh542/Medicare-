@@ -1,0 +1,38 @@
+.navBarF{
+    margin-top: 10rem;
+}
+.navPartsF {
+    display: flex;
+  }
+  .leftBarF {
+    flex: 9;
+    margin-left: 5rem;
+    margin-top: 35px;
+  
+  }
+  .leftBarMediF{
+      font-size: 30px;
+      font-weight: 700;
+      color: #4287f5;
+  
+  
+  }
+  .leftBarcareF{
+      font-size: 30px;
+      font-weight: 700;  
+      color: orange;
+  }
+  .centerBarF {
+    flex: 3;
+    margin-right: 5rem;
+  }
+  .centerBarListF{
+      display: flex;
+      list-style: none;
+      justify-content: space-between; 
+      color: #4287f5;
+      margin-top: 35px;
+     
+  }
+
+  

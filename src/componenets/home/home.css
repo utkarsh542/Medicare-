@@ -1,0 +1,50 @@
+.home{
+    display: flex;
+}
+.homeLeft{
+    flex: 4;
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+.homeLeftBest{
+    font-size: 60px;
+    color: rgb(0, 0, 102)
+}
+.homeLeftDesc{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: rgb(0, 0, 102)
+}
+
+.homeRight{
+    margin-top: 70px;
+    flex: 3.4;
+    height: 100vh;
+    width: 30rem;
+    background-color:aliceblue;
+    border-radius: 30px;
+}
+.homeLeftButton{
+    margin-top: 50px;
+}
+.homeLeftbuttonappoint{
+    border: none;
+    border-radius: 30px;
+    padding: 1.3rem 4rem;
+    background-color: #4287f5;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+
+
+}
+.homeLeftButtondepart{
+    border: none;
+    border-radius: 30px;
+    padding: 1.3rem 6rem;
+    margin-left: 20px;
+    font-weight: 800;
+    color:#4287f5;
+
+}

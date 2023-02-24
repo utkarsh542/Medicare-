@@ -1,0 +1,112 @@
+.innovation {
+  margin-top: 30rem;
+  display: flex;
+}
+.innovationLeft {
+  flex: 5;
+  margin-left: 5rem;
+  margin-top: 10rem;
+}
+.innovationLeftTitle{
+    font-size: 40px;
+    color: rgb(0, 0, 102)
+}
+.innovationLeftDesc{
+    font-size: 15.8px;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: rgb(0, 0, 102)
+}
+
+.innovationLeftButton{
+    margin-top: 25px;
+    padding: 1rem 3.5rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #4287f5;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+.innovationRight {
+  flex: 4;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-left: 2rem;
+  position: relative;
+}
+.innovationRightTopBottom {
+  flex: 50%;
+  position: relative;
+}
+.innovationRightTop {
+  width: 20rem;
+  height: 15rem;
+  background-color: aliceblue;
+  border-radius: 30px;
+  box-shadow: 10px 10px 12px 12px rgb(222, 226, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.innovationRightTop img {
+  width: 60%;
+  height: 80%;
+object-fit: cover;
+  position: relative;
+  top: -30%;
+  filter: contrast(100%);
+  border-radius: 30px;
+ 
+  
+}
+.innovationRightBottom {
+  flex: 50%;
+  width: 20rem;
+  height: 15rem;
+  background-color: aliceblue;
+  margin-top: 15rem;
+  border-radius: 30px;
+  box-shadow: 10px 10px 12px 12px rgb(222, 226, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.innovationRightBottom img{
+    width: 80%;
+    height: 80%;
+object-fit: cover;
+    position: relative;
+    top: -30%;
+    filter: contrast(100%);
+    border-radius: 30px;
+  
+}
+.innovationRightBox {
+  flex: 50%;
+  width: 20rem;
+  height: 21rem;
+  background-color: aliceblue;
+  margin-left: 2rem;
+  border-radius: 30px;
+  box-shadow: 10px 10px 12px 12px rgb(222, 226, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.innovationRightBox img{
+    width: 60%;
+    height: 100%;
+  object-fit: cover;
+    position: relative;
+    top: -40%;
+    filter: contrast(100%);
+    border-radius: 30px;
+}
+.innovationimgTitle{
+    margin-bottom: 90px;
+}
